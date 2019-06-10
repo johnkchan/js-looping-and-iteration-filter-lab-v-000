@@ -10,3 +10,13 @@ function findMatching(drivers, str) {
   
   return matchingDrivers;
 }
+
+function fuzzyMatch(drivers, str) {
+  let matchingDrivers = [];
+  
+  for (const driver of drivers) {
+    
+  }
+  
+  return matchingDrivers;
+}
