@@ -9,6 +9,7 @@ function findMatching(drivers, str) {
   // }
   
   // return matchingDrivers;
+  filter(drivers, function)
 }
 
 function fuzzyMatch(drivers, str) {
