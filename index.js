@@ -9,7 +9,7 @@ function findMatching(drivers, str) {
   // }
   
   // return matchingDrivers;
-  filter(drivers, function)
+  drivers.filter(function(driver) { return driver.toLowerCase() == str.toLowerCase() })
 }
 
 function fuzzyMatch(drivers, str) {
