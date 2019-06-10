@@ -3,7 +3,7 @@ function findMatching(drivers, str) {
   let matchingDrivers = [];
   
   for (const driver of drivers) {
-    if (driver.toLowerCase() == str.toLowerCase()){
+    if (driver.toLowerCase() == str.toLowerCase()) {
       matchingDrivers.push(driver);
     }
   }
@@ -15,7 +15,7 @@ function fuzzyMatch(drivers, str) {
   let matchingDrivers = [];
   
   for (const driver of drivers) {
-    if (driver[0].toLowerCase() == str.toLowerCase()){
+    if (driver[0].toLowerCase() == str.toLowerCase()) {
       matchingDrivers.push(driver);
     }
   }
