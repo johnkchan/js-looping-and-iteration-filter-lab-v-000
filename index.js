@@ -34,4 +34,6 @@ function matchName(drivers, str) {
   // }
   
   // return matchingDrivers;
+  
+  drivers.filter(function(driver) { return driver.name == str });
 }
