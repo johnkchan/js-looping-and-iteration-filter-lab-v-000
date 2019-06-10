@@ -22,3 +22,15 @@ function fuzzyMatch(drivers, str) {
   
   return matchingDrivers;
 }
+
+function matchName(drivers, str) {
+  let matchingDrivers = [];
+  
+  for (const driver of drivers) {
+    if (driver.name.toLowerCase() == str.toLowerCase()) {
+      matchingDrivers.push(driver);
+    }
+  }
+  
+  return matchingDrivers;
+}
